@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.26)
-project(C___Basics)
+project(CPP_Basics)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(C___Basics main.cpp)
+add_executable(CPP_Basics "data types/main.cpp")

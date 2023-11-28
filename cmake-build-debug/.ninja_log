@@ -1,3 +1,6 @@
 # ninja log v5
-0	1224	7228241564150944	CMakeFiles/C___Basics.dir/main.cpp.obj	282223d8897e1b8b
-1228	1393	7228241565800930	C___Basics.exe	567684e80cb20ab9
+4	594	7228752755730969	CMakeFiles/CPP_Basics.dir/main.cpp.obj	fff4ced3e3b48ad0
+594	706	7228752756813481	CPP_Basics.exe	b172213485eb84c9
+4	156	7228759106029046	build.ninja	a6334fe43a0aaede
+0	603	7228759112336244	CMakeFiles/CPP_Basics.dir/data_types/main.cpp.obj	84c007a1351ba6b4
+604	733	7228759113574683	CPP_Basics.exe	199461a5035c44c7
