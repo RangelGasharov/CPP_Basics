@@ -1,3 +1,0 @@
-C:/Users/gasha/Documents/CPP_Basics/cmake-build-debug/CMakeFiles/CPP_Basics.dir
-C:/Users/gasha/Documents/CPP_Basics/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/gasha/Documents/CPP_Basics/cmake-build-debug/CMakeFiles/rebuild_cache.dir
