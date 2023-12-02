@@ -19,7 +19,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data types/SwitchStatements.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data types/TwoDimensionalArrays.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
       <recent name="C:\Users\gasha\Documents\CPP_Basics\data types" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.SwitchStatements.cpp">
+  <component name="RunManager" selected="C/C++ File.TwoDimensionalArrays.cpp">
     <configuration name="BinarySearch.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="BinarySearch.cpp" CONFIG_NAME="BinarySearch.cpp">
       <option name="sourceFile" value="data types\BinarySearch.cpp" />
       <method v="2">
@@ -75,6 +75,12 @@
     </configuration>
     <configuration name="SwitchStatements.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="SwitchStatements.cpp" CONFIG_NAME="SwitchStatements.cpp">
       <option name="sourceFile" value="data types\SwitchStatements.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoDimensionalArrays.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="TwoDimensionalArrays.cpp" CONFIG_NAME="TwoDimensionalArrays.cpp">
+      <option name="sourceFile" value="data types\TwoDimensionalArrays.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -93,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.TwoDimensionalArrays.cpp" />
         <item itemvalue="C/C++ File.SwitchStatements.cpp" />
         <item itemvalue="C/C++ File.Variables.cpp (1)" />
         <item itemvalue="C/C++ File.Variables.cpp" />
@@ -114,7 +121,8 @@
       <workItem from="1701296267838" duration="187000" />
       <workItem from="1701377166780" duration="733000" />
       <workItem from="1701432044267" duration="1202000" />
-      <workItem from="1701451335798" duration="1137000" />
+      <workItem from="1701451335798" duration="1227000" />
+      <workItem from="1701555506365" duration="365000" />
     </task>
     <servers />
   </component>
