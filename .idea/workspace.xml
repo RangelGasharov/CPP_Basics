@@ -18,10 +18,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data types/TwoDimensionalArrays.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +119,7 @@
       <workItem from="1701377166780" duration="733000" />
       <workItem from="1701432044267" duration="1202000" />
       <workItem from="1701451335798" duration="1227000" />
-      <workItem from="1701555506365" duration="365000" />
+      <workItem from="1701555506365" duration="1001000" />
     </task>
     <servers />
   </component>
