@@ -8,20 +8,27 @@ public:
     string title;
     string author;
     int pages;
+
+    Book() {
+        title = "no title";
+        author = "no author";
+        pages = 0;
+    }
+
+    Book(string aTitle, string aAuthor, int aPages) {
+        title = aTitle;
+        author = aAuthor;
+        pages = aPages;
+    }
 };
 
 int main() {
-    Book book1;
-    book1.title = "Lord of the Rings";
-    book1.author = "Tolkein";
-    book1.pages = 720;
-
-    Book book2;
-    book2.title = "Harry Potter";
-    book2.author = "JK Rowling";
-    book2.pages = 650;
+    Book book1("Lord of the Rings", "Tolkein", 720);
+    Book book2("Harry Potter", "JK Rowling", 650);
+    Book book3;
 
     cout << book1.title << endl;
     cout << book2.title << endl;
+    cout << book3.title << endl;
     return 0;
 }
