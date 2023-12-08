@@ -19,8 +19,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/basics/Movie.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Classes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Classes.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +67,15 @@
       <recent name="C:\Users\gasha\Documents\CPP_Basics\data types" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.Classes.cpp">
+  <component name="RunManager" selected="C/C++ File.Movie.cpp">
     <configuration name="Classes.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Classes.cpp" CONFIG_NAME="Classes.cpp">
       <option name="sourceFile" value="basics\Classes.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Movie.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Movie.cpp" CONFIG_NAME="Movie.cpp">
+      <option name="sourceFile" value="basics\Movie.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -92,19 +98,13 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Variables.cpp (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Variables.cpp">
-      <option name="sourceFile" value="data types\UserInputs.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.Movie.cpp" />
         <item itemvalue="C/C++ File.Classes.cpp" />
         <item itemvalue="C/C++ File.Pointers.cpp" />
         <item itemvalue="C/C++ File.TwoDimensionalArrays.cpp" />
         <item itemvalue="C/C++ File.SwitchStatements.cpp" />
-        <item itemvalue="C/C++ File.Variables.cpp (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +129,8 @@
       <workItem from="1701801152884" duration="78000" />
       <workItem from="1701801247196" duration="1592000" />
       <workItem from="1701898651483" duration="556000" />
-      <workItem from="1701985828747" duration="320000" />
+      <workItem from="1701985828747" duration="987000" />
+      <workItem from="1702072238281" duration="635000" />
     </task>
     <servers />
   </component>
