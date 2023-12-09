@@ -19,8 +19,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/basics/Movie.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/Car.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Classes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Classes.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Movie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Movie.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,13 @@
       <recent name="C:\Users\gasha\Documents\CPP_Basics\data types" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.Movie.cpp">
+  <component name="RunManager" selected="C/C++ File.Car.cpp">
+    <configuration name="Car.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Car.cpp" CONFIG_NAME="Car.cpp">
+      <option name="sourceFile" value="basics\Car.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Classes.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Classes.cpp" CONFIG_NAME="Classes.cpp">
       <option name="sourceFile" value="basics\Classes.cpp" />
       <method v="2">
@@ -86,12 +94,6 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchStatements.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="SwitchStatements.cpp" CONFIG_NAME="SwitchStatements.cpp">
-      <option name="sourceFile" value="data types\SwitchStatements.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TwoDimensionalArrays.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="TwoDimensionalArrays.cpp" CONFIG_NAME="TwoDimensionalArrays.cpp">
       <option name="sourceFile" value="data types\TwoDimensionalArrays.cpp" />
       <method v="2">
@@ -100,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.Car.cpp" />
         <item itemvalue="C/C++ File.Movie.cpp" />
         <item itemvalue="C/C++ File.Classes.cpp" />
         <item itemvalue="C/C++ File.Pointers.cpp" />
         <item itemvalue="C/C++ File.TwoDimensionalArrays.cpp" />
-        <item itemvalue="C/C++ File.SwitchStatements.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +132,8 @@
       <workItem from="1701801247196" duration="1592000" />
       <workItem from="1701898651483" duration="556000" />
       <workItem from="1701985828747" duration="987000" />
-      <workItem from="1702072238281" duration="635000" />
+      <workItem from="1702072238281" duration="1281000" />
+      <workItem from="1702158638880" duration="1059000" />
     </task>
     <servers />
   </component>
