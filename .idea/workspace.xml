@@ -19,10 +19,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/basics/Car.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/computer_science_olympiad/censor/censor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/computer_science_olympiad/censor/censor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/computer_science_olympiad/censor/grader.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Classes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Classes.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Movie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Movie.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,31 +45,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/gasha/Documents/CPP_Basics/computer_science_olympiad/censor",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gasha\Documents\CPP_Basics\computer_science_olympiad\censor" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gasha\Documents\CPP_Basics\data types" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.Car.cpp">
+  <component name="RunManager" selected="C/C++ File.grader.cpp">
     <configuration name="Car.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Car.cpp" CONFIG_NAME="Car.cpp">
       <option name="sourceFile" value="basics\Car.cpp" />
       <method v="2">
@@ -94,19 +98,19 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoDimensionalArrays.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="TwoDimensionalArrays.cpp" CONFIG_NAME="TwoDimensionalArrays.cpp">
-      <option name="sourceFile" value="data types\TwoDimensionalArrays.cpp" />
+    <configuration name="grader.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="grader.cpp" CONFIG_NAME="grader.cpp">
+      <option name="sourceFile" value="computer_science_olympiad\censor\grader.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.grader.cpp" />
         <item itemvalue="C/C++ File.Car.cpp" />
         <item itemvalue="C/C++ File.Movie.cpp" />
         <item itemvalue="C/C++ File.Classes.cpp" />
         <item itemvalue="C/C++ File.Pointers.cpp" />
-        <item itemvalue="C/C++ File.TwoDimensionalArrays.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +137,8 @@
       <workItem from="1701898651483" duration="556000" />
       <workItem from="1701985828747" duration="987000" />
       <workItem from="1702072238281" duration="1281000" />
-      <workItem from="1702158638880" duration="1059000" />
+      <workItem from="1702158638880" duration="1160000" />
+      <workItem from="1702230692829" duration="2852000" />
     </task>
     <servers />
   </component>
