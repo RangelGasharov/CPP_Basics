@@ -1,5 +1,5 @@
 #include "censor.h"
-#include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -7,9 +7,8 @@ std::string findBannedWord() {
     const int wordLength = 4;
     const int messageLength = 10000;
     const std::string alphabet = "abcdefghijklmnopqrstuvwxyz";
-    
+
     string text;
-    bool isFinished = false;
 
     for (int i = 0; i < alphabet.length(); ++i) {
         for (int j = 0; j < alphabet.length(); ++j) {
@@ -20,17 +19,53 @@ std::string findBannedWord() {
             }
         }
     }
-
+    bool isFinished = false;
+    bool textFound = false;
     int currentIndex = 0;
     string currentText = text.substr(currentIndex, messageLength);
-    while (!isFinished) {
+
+    while (!textFound) {
         if (sendMessage(currentText)) {
-            isFinished = true;
+            textFound = true;
         } else {
             currentIndex += messageLength;
             currentText = text.substr(currentIndex, messageLength);
         }
     }
 
-    return "";
+    string leftText = currentText.substr(0, ceil((currentText.length()) / 2));
+    string rightText = currentText.substr((currentText.length() - 1) / 2 + 1, currentText.length() - 1);
+    int offset = 0;
+
+    while (!isFinished) {
+        if (sendMessage(leftText)) {
+            if (leftText.length() == wordLength) {
+                return leftText;
+            }
+            currentText = leftText;
+            leftText = leftText = currentText.substr(0, ceil((currentText.length() / 2)));
+            rightText = currentText.substr(ceil(currentText.length() / 2), currentText.length() - 1);
+        } else if (sendMessage(rightText)) {
+            if (rightText.length() == wordLength) {
+                return rightText;
+            }
+            currentText = rightText;
+            leftText = currentText.substr(0, ceil(currentText.length() / 2));
+            rightText = currentText.substr(ceil(currentText.length() / 2), currentText.length() - 1);
+        } else {
+            currentText = leftText;
+            currentText = currentText.append(rightText.substr(0, rightText.length() - 1));
+            if (sendMessage(currentText)) {
+                string a = currentText.substr(offset, wordLength);
+                while (true) {
+                    a = currentText.substr(offset, wordLength);
+                    offset += 1;
+                    if (sendMessage(a) && a.length() == wordLength) {
+                        return a;
+                    }
+                    a = "";
+                }
+            }
+        }
+    }
 }
