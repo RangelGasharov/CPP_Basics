@@ -19,7 +19,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="Altered algorithm">
-      <change afterPath="$PROJECT_DIR$/basics/TemperatureConversion.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/StringMethods.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,13 @@
       <recent name="C:\Users\gasha\Documents\CPP_Basics\data types" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.TemperatureConversion.cpp">
+  <component name="RunManager" selected="C/C++ File.StringMethods.cpp">
+    <configuration name="StringMethods.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="StringMethods.cpp" CONFIG_NAME="StringMethods.cpp">
+      <option name="sourceFile" value="basics\StringMethods.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TemperatureConversion.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="TemperatureConversion.cpp" CONFIG_NAME="TemperatureConversion.cpp">
       <option name="sourceFile" value="basics\TemperatureConversion.cpp" />
       <method v="2">
@@ -97,19 +103,13 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testing.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="testing.cpp" CONFIG_NAME="testing.cpp">
-      <option name="sourceFile" value="computer_science_olympiad\censor\testing.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.StringMethods.cpp" />
         <item itemvalue="C/C++ File.TemperatureConversion.cpp" />
         <item itemvalue="C/C++ File.test.cpp" />
         <item itemvalue="C/C++ File.grader.cpp" />
         <item itemvalue="C/C++ File.testing2.cpp" />
-        <item itemvalue="C/C++ File.testing.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +147,8 @@
       <workItem from="1702495129578" duration="7478000" />
       <workItem from="1702549392188" duration="266000" />
       <workItem from="1702575411102" duration="2347000" />
-      <workItem from="1702671488011" duration="537000" />
+      <workItem from="1702671488011" duration="1201000" />
+      <workItem from="1702733449755" duration="1564000" />
     </task>
     <task id="LOCAL-00001" summary="Altered algorithm">
       <option name="closed" value="true" />
