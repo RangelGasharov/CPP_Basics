@@ -33,42 +33,38 @@ std::string findBannedWord() {
         }
     }
 
-    string leftText = currentText.substr(0, ceil((currentText.length()) / 2 + wordLength - 1));
-    string rightText = currentText.substr((currentText.length() - 1) / 2 + 1, currentText.length() - 1);
+    string leftText = currentText.substr(0, (currentText.length()) / 2 + wordLength / 2);
+    string rightText = currentText.substr((currentText.length() - 1) / 2 - wordLength / 2,
+                                          (currentText.length() - 1) / 2);
 
     while (!isFinished) {
         if (sendMessage(leftText)) {
-            if (leftText.length() <= wordLength * 2) {
-                int offset = 0;
-                while (true) {
-                    string a = leftText.substr(offset, wordLength);
-                    if (sendMessage(a)) {
-                        return a;
-                    }
-                    offset += 1;
-                }
-            }
             currentText = leftText;
-            leftText = currentText.substr(0, ceil((currentText.length()) / 2 + wordLength - 1));
-            rightText = currentText.substr(ceil(currentText.length() / 2) - (wordLength - 1), currentText.length() - 1);
-            cout << "l," + leftText << endl;
-            cout << "r," + rightText << endl;
+            if (currentText.length() == wordLength) {
+                return currentText;
+            }
+            if (currentText.length() % 2 == 0) {
+                leftText = currentText.substr(0, currentText.length() / 2 + wordLength / 2);
+                rightText = currentText.substr(currentText.length() / 2 - wordLength / 2,
+                                               currentText.length() - (currentText.length() / 2 - wordLength / 2));
+            } else {
+                leftText = currentText.substr(0, currentText.length() / 2 + wordLength / 2);
+                rightText = currentText.substr((currentText.length() / 2 + 1 - wordLength / 2),
+                                               currentText.length() / 2 + wordLength / 2);
+            }
         } else {
             currentText = rightText;
-            leftText = currentText.substr(0, ceil(currentText.length() / 2 + wordLength - 1));
-            rightText = currentText.substr(ceil(currentText.length() / 2) - (wordLength - 1), currentText.length() - 1);
-            cout << "l," + leftText << endl;
-            cout << "r," + rightText << endl;
-
-            if (rightText.length() <= wordLength * 2) {
-                int offset = 0;
-                while (true) {
-                    string a = rightText.substr(offset, wordLength);
-                    if (sendMessage(a)) {
-                        return a;
-                    }
-                    offset += 1;
-                }
+            if (currentText.length() == wordLength) {
+                return currentText;
+            }
+            if (currentText.length() % 2 == 0) {
+                leftText = currentText.substr(0, currentText.length() / 2 + wordLength / 2);
+                rightText = currentText.substr(currentText.length() / 2 - wordLength / 2,
+                                               currentText.length() - (currentText.length() / 2 - wordLength / 2));
+            } else {
+                leftText = currentText.substr(0, currentText.length() / 2 + wordLength / 2);
+                rightText = currentText.substr((currentText.length() / 2 + 1 - wordLength / 2),
+                                               currentText.length() / 2 + wordLength / 2);
             }
         }
     }
