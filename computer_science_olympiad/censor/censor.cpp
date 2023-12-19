@@ -33,37 +33,41 @@ std::string findBannedWord() {
         }
     }
 
-    string leftText = currentText.substr(0, ceil((currentText.length()) / 2));
+    string leftText = currentText.substr(0, ceil((currentText.length()) / 2 + wordLength - 1));
     string rightText = currentText.substr((currentText.length() - 1) / 2 + 1, currentText.length() - 1);
-    int offset = 0;
 
     while (!isFinished) {
         if (sendMessage(leftText)) {
-            if (leftText.length() == wordLength) {
-                return leftText;
-            }
-            currentText = leftText;
-            leftText = leftText = currentText.substr(0, ceil((currentText.length() / 2)));
-            rightText = currentText.substr(ceil(currentText.length() / 2), currentText.length() - 1);
-        } else if (sendMessage(rightText)) {
-            if (rightText.length() == wordLength) {
-                return rightText;
-            }
-            currentText = rightText;
-            leftText = currentText.substr(0, ceil(currentText.length() / 2));
-            rightText = currentText.substr(ceil(currentText.length() / 2), currentText.length() - 1);
-        } else {
-            currentText = leftText;
-            currentText = currentText.append(rightText.substr(0, rightText.length() - 1));
-            if (sendMessage(currentText)) {
-                string a = currentText.substr(offset, wordLength);
+            if (leftText.length() <= wordLength * 2) {
+                int offset = 0;
                 while (true) {
-                    a = currentText.substr(offset, wordLength);
-                    offset += 1;
-                    if (sendMessage(a) && a.length() == wordLength) {
+                    string a = leftText.substr(offset, wordLength);
+                    if (sendMessage(a)) {
                         return a;
                     }
-                    a = "";
+                    offset += 1;
+                }
+            }
+            currentText = leftText;
+            leftText = currentText.substr(0, ceil((currentText.length()) / 2 + wordLength - 1));
+            rightText = currentText.substr(ceil(currentText.length() / 2) - (wordLength - 1), currentText.length() - 1);
+            cout << "l," + leftText << endl;
+            cout << "r," + rightText << endl;
+        } else {
+            currentText = rightText;
+            leftText = currentText.substr(0, ceil(currentText.length() / 2 + wordLength - 1));
+            rightText = currentText.substr(ceil(currentText.length() / 2) - (wordLength - 1), currentText.length() - 1);
+            cout << "l," + leftText << endl;
+            cout << "r," + rightText << endl;
+
+            if (rightText.length() <= wordLength * 2) {
+                int offset = 0;
+                while (true) {
+                    string a = rightText.substr(offset, wordLength);
+                    if (sendMessage(a)) {
+                        return a;
+                    }
+                    offset += 1;
                 }
             }
         }
