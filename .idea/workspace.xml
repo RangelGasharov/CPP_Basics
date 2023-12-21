@@ -19,8 +19,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="Altered algorithm">
+      <change afterPath="$PROJECT_DIR$/basics/OverloadedFunctions.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/computer_science_olympiad/censor/censor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/computer_science_olympiad/censor/censor.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,13 @@
       <recent name="C:\Users\gasha\Documents\CPP_Basics\data types" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.grader.cpp">
+  <component name="RunManager" selected="C/C++ File.OverloadedFunctions.cpp">
+    <configuration name="OverloadedFunctions.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="OverloadedFunctions.cpp" CONFIG_NAME="OverloadedFunctions.cpp">
+      <option name="sourceFile" value="basics\OverloadedFunctions.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringMethods.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="StringMethods.cpp" CONFIG_NAME="StringMethods.cpp">
       <option name="sourceFile" value="basics\StringMethods.cpp" />
       <method v="2">
@@ -97,19 +103,13 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testing2.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="testing2.cpp" CONFIG_NAME="testing2.cpp">
-      <option name="sourceFile" value="computer_science_olympiad\censor\testing2.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.OverloadedFunctions.cpp" />
         <item itemvalue="C/C++ File.grader.cpp" />
         <item itemvalue="C/C++ File.StringMethods.cpp" />
         <item itemvalue="C/C++ File.TemperatureConversion.cpp" />
         <item itemvalue="C/C++ File.test.cpp" />
-        <item itemvalue="C/C++ File.testing2.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +150,8 @@
       <workItem from="1702671488011" duration="1201000" />
       <workItem from="1702733449755" duration="1604000" />
       <workItem from="1702853241235" duration="120000" />
-      <workItem from="1703013005910" duration="6870000" />
+      <workItem from="1703013005910" duration="8255000" />
+      <workItem from="1703195286344" duration="542000" />
     </task>
     <task id="LOCAL-00001" summary="Altered algorithm">
       <option name="closed" value="true" />
