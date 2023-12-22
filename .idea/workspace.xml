@@ -19,7 +19,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="Altered algorithm">
-      <change afterPath="$PROJECT_DIR$/basics/OverloadedFunctions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/ArrayAsArgument.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,13 @@
       <recent name="C:\Users\gasha\Documents\CPP_Basics\data types" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.OverloadedFunctions.cpp">
+  <component name="RunManager" selected="C/C++ File.ArrayAsArgument.cpp">
+    <configuration name="ArrayAsArgument.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="ArrayAsArgument.cpp" CONFIG_NAME="ArrayAsArgument.cpp">
+      <option name="sourceFile" value="basics\ArrayAsArgument.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OverloadedFunctions.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="OverloadedFunctions.cpp" CONFIG_NAME="OverloadedFunctions.cpp">
       <option name="sourceFile" value="basics\OverloadedFunctions.cpp" />
       <method v="2">
@@ -97,19 +103,13 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="test.cpp" CONFIG_NAME="test.cpp">
-      <option name="sourceFile" value="computer_science_olympiad\censor\test.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.ArrayAsArgument.cpp" />
         <item itemvalue="C/C++ File.OverloadedFunctions.cpp" />
         <item itemvalue="C/C++ File.grader.cpp" />
         <item itemvalue="C/C++ File.StringMethods.cpp" />
         <item itemvalue="C/C++ File.TemperatureConversion.cpp" />
-        <item itemvalue="C/C++ File.test.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +151,8 @@
       <workItem from="1702733449755" duration="1604000" />
       <workItem from="1702853241235" duration="120000" />
       <workItem from="1703013005910" duration="8255000" />
-      <workItem from="1703195286344" duration="542000" />
+      <workItem from="1703195286344" duration="599000" />
+      <workItem from="1703278267429" duration="905000" />
     </task>
     <task id="LOCAL-00001" summary="Altered algorithm">
       <option name="closed" value="true" />
