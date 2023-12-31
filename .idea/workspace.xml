@@ -19,6 +19,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="Altered algorithm">
+      <change afterPath="$PROJECT_DIR$/basics/StringConverter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +53,7 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gasha/Documents/CPP_Basics/computer_science_olympiad/censor&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gasha/Documents/CPP_Basics/computer_science_olympiad/central matura&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -64,6 +65,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gasha\Documents\CPP_Basics\computer_science_olympiad\central matura" />
       <recent name="C:\Users\gasha\Documents\CPP_Basics\computer_science_olympiad\censor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -71,21 +73,9 @@
       <recent name="C:\Users\gasha\Documents\CPP_Basics\data types" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.STLArrays.cpp">
-    <configuration name="ArrayAsArgument.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="ArrayAsArgument.cpp" CONFIG_NAME="ArrayAsArgument.cpp">
-      <option name="sourceFile" value="basics\ArrayAsArgument.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="C/C++ File.StringConverter.cpp">
     <configuration name="Enums.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Enums.cpp" CONFIG_NAME="Enums.cpp">
       <option name="sourceFile" value="basics\Enums.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OverloadedFunctions.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="OverloadedFunctions.cpp" CONFIG_NAME="OverloadedFunctions.cpp">
-      <option name="sourceFile" value="basics\OverloadedFunctions.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -96,19 +86,31 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringConverter.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="StringConverter.cpp" CONFIG_NAME="StringConverter.cpp">
+      <option name="sourceFile" value="basics\StringConverter.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Vectors.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Vectors.cpp" CONFIG_NAME="Vectors.cpp">
       <option name="sourceFile" value="basics\Vectors.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="grader.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="grader.cpp" CONFIG_NAME="grader.cpp">
+      <option name="sourceFile" value="computer_science_olympiad\dnd\grader.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.StringConverter.cpp" />
+        <item itemvalue="C/C++ File.grader.cpp" />
         <item itemvalue="C/C++ File.STLArrays.cpp" />
         <item itemvalue="C/C++ File.Enums.cpp" />
         <item itemvalue="C/C++ File.Vectors.cpp" />
-        <item itemvalue="C/C++ File.ArrayAsArgument.cpp" />
-        <item itemvalue="C/C++ File.OverloadedFunctions.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +160,9 @@
       <workItem from="1703603209966" duration="1286000" />
       <workItem from="1703711857059" duration="122000" />
       <workItem from="1703864734063" duration="761000" />
+      <workItem from="1703889145812" duration="68000" />
+      <workItem from="1703953277761" duration="1945000" />
+      <workItem from="1704040376165" duration="7249000" />
     </task>
     <task id="LOCAL-00001" summary="Altered algorithm">
       <option name="closed" value="true" />
