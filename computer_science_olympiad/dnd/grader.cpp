@@ -5,6 +5,7 @@
 #include <utility>
 #include <csetjmp>
 #include <iostream>
+#include "dnd.cpp"
 
 using namespace std;
 
@@ -38,13 +39,13 @@ void showNote()
 {
 	string s = note[p].substr(0, 10);
 	std::cout << "room " << p << ": ";
-	
+
 	for(char c : s)
 	{
 		for (int i = 0; i < 8; i++)
 			if (c & (0x80 >> i))
 				std::cout << "1";
-			else	
+			else
 				std::cout << "0";
 	}
 	std::cout << "\n";
@@ -84,12 +85,12 @@ void takeNote(string s)
 	showNote();
 }
 
-string readNote() { 
+string readNote() {
 //	std::cout << (note[p].empty() ? "empty" : "non-empty") << std::endl;
 	std::cout << "readNote ";//(curState.note[curState.p].empty() ? "empty" : "non-empty") << std::endl;
 	showNote();
 
-	return note[p]; 
+	return note[p];
 }
 
 int main()

@@ -20,8 +20,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="Altered algorithm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/StringConverter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/basics/StringConverter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/computer_science_olympiad/dnd/dnd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/computer_science_olympiad/dnd/dnd.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/computer_science_olympiad/dnd/grader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/computer_science_olympiad/dnd/grader.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,9 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -74,7 +77,7 @@
       <recent name="C:\Users\gasha\Documents\CPP_Basics\data types" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.StringConverter.cpp">
+  <component name="RunManager" selected="C/C++ File.grader.cpp">
     <configuration name="Enums.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Enums.cpp" CONFIG_NAME="Enums.cpp">
       <option name="sourceFile" value="basics\Enums.cpp" />
       <method v="2">
@@ -107,8 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="C/C++ File.StringConverter.cpp" />
         <item itemvalue="C/C++ File.grader.cpp" />
+        <item itemvalue="C/C++ File.StringConverter.cpp" />
         <item itemvalue="C/C++ File.STLArrays.cpp" />
         <item itemvalue="C/C++ File.Enums.cpp" />
         <item itemvalue="C/C++ File.Vectors.cpp" />
@@ -164,7 +167,8 @@
       <workItem from="1703889145812" duration="68000" />
       <workItem from="1703953277761" duration="1945000" />
       <workItem from="1704040376165" duration="8720000" />
-      <workItem from="1704062828614" duration="131000" />
+      <workItem from="1704062828614" duration="1650000" />
+      <workItem from="1704102989837" duration="27535000" />
     </task>
     <task id="LOCAL-00001" summary="Altered algorithm">
       <option name="closed" value="true" />
