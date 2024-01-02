@@ -21,7 +21,6 @@
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="Altered algorithm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/computer_science_olympiad/dnd/dnd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/computer_science_olympiad/dnd/dnd.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/computer_science_olympiad/dnd/grader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/computer_science_olympiad/dnd/grader.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +167,8 @@
       <workItem from="1703953277761" duration="1945000" />
       <workItem from="1704040376165" duration="8720000" />
       <workItem from="1704062828614" duration="1650000" />
-      <workItem from="1704102989837" duration="27535000" />
+      <workItem from="1704102989837" duration="32229000" />
+      <workItem from="1704187313200" duration="5822000" />
     </task>
     <task id="LOCAL-00001" summary="Altered algorithm">
       <option name="closed" value="true" />
