@@ -14,12 +14,17 @@
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" ENABLED="true" GENERATION_DIR="bin" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="Altered algorithm">
+      <change afterPath="$PROJECT_DIR$/computer_science_olympiad/central matura/matura_testing.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/computer_science_olympiad/central matura/zentralmatura.h.gch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/computer_science_olympiad/central matura/grader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/computer_science_olympiad/central matura/grader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/computer_science_olympiad/central matura/matura.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/computer_science_olympiad/central matura/matura.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/computer_science_olympiad/central matura/matura.h" beforeDir="false" afterPath="$PROJECT_DIR$/computer_science_olympiad/central matura/matura.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/computer_science_olympiad/dnd/dnd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/computer_science_olympiad/dnd/dnd.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +60,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.jetbrains.cidr.cpp.cmake.workspace.CMakeCacheInvalidator.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/gasha/Documents/CPP_Basics/computer_science_olympiad/central matura&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -62,58 +68,61 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\gasha\Documents\CPP_Basics\computer_science_olympiad\central matura" />
+      <recent name="C:\Users\gasha\Documents\CPP_Basics\computer_science_olympiad" />
       <recent name="C:\Users\gasha\Documents\CPP_Basics\computer_science_olympiad\censor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gasha\Documents\CPP_Basics\computer_science_olympiad\central matura" />
+      <recent name="C:\Users\gasha\Documents\CPP_Basics" />
       <recent name="C:\Users\gasha\Documents\CPP_Basics\computer_science_olympiad\dnd" />
       <recent name="C:\Users\gasha\Documents\CPP_Basics\data types" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.grader.cpp">
-    <configuration name="Enums.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Enums.cpp" CONFIG_NAME="Enums.cpp">
-      <option name="sourceFile" value="basics\Enums.cpp" />
+  <component name="RunManager" selected="C/C++ File.matura_testing.cpp">
+    <configuration name="grader.cpp (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="grader.cpp" CONFIG_NAME="grader.cpp">
+      <option name="sourceFile" value="computer_science_olympiad\central matura\grader.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="STLArrays.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="STLArrays.cpp" CONFIG_NAME="STLArrays.cpp">
-      <option name="sourceFile" value="basics\STLArrays.cpp" />
+    <configuration name="grader.cpp (2)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="grader.cpp" CONFIG_NAME="grader.cpp">
+      <option name="sourceFile" value="computer_science_olympiad\cpp\grader.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringConverter.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="StringConverter.cpp" CONFIG_NAME="StringConverter.cpp">
-      <option name="sourceFile" value="basics\StringConverter.cpp" />
+    <configuration name="grader.cpp (3)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="grader.cpp" CONFIG_NAME="grader.cpp">
+      <option name="sourceFile" value="computer_science_olympiad\censor\grader.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vectors.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Vectors.cpp" CONFIG_NAME="Vectors.cpp">
-      <option name="sourceFile" value="basics\Vectors.cpp" />
+    <configuration name="matura_testing.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="matura_testing.cpp" CONFIG_NAME="matura_testing.cpp">
+      <option name="sourceFile" value="computer_science_olympiad\central matura\matura_testing.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="grader.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="grader.cpp" CONFIG_NAME="grader.cpp">
-      <option name="sourceFile" value="computer_science_olympiad\dnd\grader.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
+    <configuration name="cmake_force" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/cmake-build-debug/Makefile" target="cmake_force" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="C/C++ File.grader.cpp" />
-        <item itemvalue="C/C++ File.StringConverter.cpp" />
-        <item itemvalue="C/C++ File.STLArrays.cpp" />
-        <item itemvalue="C/C++ File.Enums.cpp" />
-        <item itemvalue="C/C++ File.Vectors.cpp" />
+        <item itemvalue="C/C++ File.matura_testing.cpp" />
+        <item itemvalue="Makefile Target.cmake_force" />
+        <item itemvalue="Makefile Target.cmake_force" />
+        <item itemvalue="C/C++ File.grader.cpp (1)" />
+        <item itemvalue="C/C++ File.grader.cpp (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +177,16 @@
       <workItem from="1704040376165" duration="8720000" />
       <workItem from="1704062828614" duration="1650000" />
       <workItem from="1704102989837" duration="32229000" />
-      <workItem from="1704187313200" duration="26522000" />
+      <workItem from="1704187313200" duration="28720000" />
+      <workItem from="1704273563489" duration="1972000" />
+      <workItem from="1704276384356" duration="6535000" />
+      <workItem from="1704291003014" duration="12000" />
+      <workItem from="1704296024850" duration="24000" />
+      <workItem from="1704296162774" duration="968000" />
+      <workItem from="1704298184114" duration="28000" />
+      <workItem from="1704298223708" duration="661000" />
+      <workItem from="1704298906849" duration="1174000" />
+      <workItem from="1704319222247" duration="188000" />
     </task>
     <task id="LOCAL-00001" summary="Altered algorithm">
       <option name="closed" value="true" />
@@ -189,6 +207,17 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticFoundErrors value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Altered algorithm" />
