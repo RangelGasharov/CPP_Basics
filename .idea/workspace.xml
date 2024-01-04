@@ -19,13 +19,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="Altered algorithm">
-      <change afterPath="$PROJECT_DIR$/computer_science_olympiad/central matura/matura_testing.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/computer_science_olympiad/central matura/zentralmatura.h.gch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/computer_science_olympiad/central matura/grader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/computer_science_olympiad/central matura/grader.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/computer_science_olympiad/central matura/matura.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/computer_science_olympiad/central matura/matura.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/computer_science_olympiad/central matura/matura.h" beforeDir="false" afterPath="$PROJECT_DIR$/computer_science_olympiad/central matura/matura.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/computer_science_olympiad/dnd/dnd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/computer_science_olympiad/dnd/dnd.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/computer_science_olympiad/central matura/matura_testing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/computer_science_olympiad/central matura/matura_testing.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +181,8 @@
       <workItem from="1704298184114" duration="28000" />
       <workItem from="1704298223708" duration="661000" />
       <workItem from="1704298906849" duration="1174000" />
-      <workItem from="1704319222247" duration="188000" />
+      <workItem from="1704319222247" duration="311000" />
+      <workItem from="1704380080197" duration="1973000" />
     </task>
     <task id="LOCAL-00001" summary="Altered algorithm">
       <option name="closed" value="true" />

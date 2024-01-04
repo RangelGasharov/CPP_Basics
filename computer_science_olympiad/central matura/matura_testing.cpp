@@ -1,5 +1,6 @@
 #include <cstdio>
 #include <vector>
+#include <iostream>
 
 using namespace std;
 
@@ -13,6 +14,38 @@ struct Position {
 
 std::vector<Position> solve(const std::vector<Preference> &preference) {
     const int n = preference.size();
+
+
+    struct Coordinates {
+        int num, p1, p2;
+    };
+
+    vector<Coordinates> xCoordinates(n);
+    vector<Coordinates> yCoordinates(n);
+
+    for (int i = 0; i < n; i++) {
+        xCoordinates[i].num = i;
+        xCoordinates[i].p1 = preference[i].a;
+        xCoordinates[i].p2 = preference[i].c;
+
+        yCoordinates[i].num = i;
+        yCoordinates[i].p1 = preference[i].b;
+        yCoordinates[i].p2 = preference[i].d;
+    }
+
+    for (int i = 0; i < n; i++) {
+        std::cout << yCoordinates[i].num << " ";
+        std::cout << xCoordinates[i].p1 << " ";
+        std::cout << xCoordinates[i].p2 << std::endl;
+    }
+
+    for (int i = 0; i < n; i++) {
+        std::cout << yCoordinates[i].num << " ";
+        std::cout << yCoordinates[i].p1 << " ";
+        std::cout << yCoordinates[i].p2 << std::endl;
+    }
+
+    std::cout << "Next" << std::endl;
 
     // TODO: deine Implementierung
 
