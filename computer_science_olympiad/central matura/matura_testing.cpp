@@ -15,39 +15,41 @@ struct Position {
 std::vector<Position> solve(const std::vector<Preference> &preference) {
     const int n = preference.size();
 
-
     struct Coordinates {
         int num, p1, p2;
+        bool isTaken;
     };
 
     vector<Coordinates> xCoordinates(n);
     vector<Coordinates> yCoordinates(n);
+    vector<int> xCoordinatesResults(n);
+    vector<int> yCoordinatesResults(n);
 
     for (int i = 0; i < n; i++) {
         xCoordinates[i].num = i;
         xCoordinates[i].p1 = preference[i].a;
         xCoordinates[i].p2 = preference[i].c;
+        xCoordinates[i].isTaken = false;
 
         yCoordinates[i].num = i;
         yCoordinates[i].p1 = preference[i].b;
         yCoordinates[i].p2 = preference[i].d;
+        yCoordinates[i].isTaken = false;
     }
 
-    for (int i = 0; i < n; i++) {
-        std::cout << yCoordinates[i].num << " ";
-        std::cout << xCoordinates[i].p1 << " ";
-        std::cout << xCoordinates[i].p2 << std::endl;
-    }
+    for (int j = 1; j <= n; j++) {
+        for (int i = 0; i < n; i++) {
+            if ((xCoordinates[i].p2 < j) || (xCoordinates[i].p1 > j)) {
+                continue;
+            }
 
-    for (int i = 0; i < n; i++) {
-        std::cout << yCoordinates[i].num << " ";
-        std::cout << yCoordinates[i].p1 << " ";
-        std::cout << yCoordinates[i].p2 << std::endl;
+            if (xCoordinates[i].isTaken == 1) {
+                continue;
+            }
+        }
     }
 
     std::cout << "Next" << std::endl;
-
-    // TODO: deine Implementierung
 
     vector<Position> res(n);
     for (int i = 0; i < res.size(); i++) {
