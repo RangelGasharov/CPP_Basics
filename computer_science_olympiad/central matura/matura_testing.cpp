@@ -31,7 +31,7 @@ std::vector<Position> solve(const std::vector<Preference> &preference) {
     vector<Coordinates> yCoordinatesPossibleSolutions;
     vector<int> xCoordinatesResults;
     vector<int> yCoordinatesResults;
-    vector<Position> emptyVector = {};
+    vector<Position> emptyVector;
 
 
     for (int i = 0; i < n; i++) {
@@ -47,7 +47,6 @@ std::vector<Position> solve(const std::vector<Preference> &preference) {
     }
 
     for (int j = 1; j <= n; j++) {
-        std::cout << "Start: " << j << std::endl;
 
         for (int i = 0; i < n; i++) {
             if ((xCoordinates[i].p2 < j) || (xCoordinates[i].p1 > j)) { continue; }
@@ -64,29 +63,22 @@ std::vector<Position> solve(const std::vector<Preference> &preference) {
         std::sort(xCoordinatesPossibleSolutions.begin(), xCoordinatesPossibleSolutions.end(), compareByP2);
         std::sort(yCoordinatesPossibleSolutions.begin(), yCoordinatesPossibleSolutions.end(), compareByP2);
 
-        /* for (const auto &coord: yCoordinatesPossibleSolutions) {
-             std::cout << "num: " << coord.num << ", p1: " << coord.p1 << ", p2: " << coord.p2 << ", isTaken: "
-                       << std::boolalpha << coord.isTaken << std::endl;
-         }*/
-
-        for (int i = 0; i < xCoordinatesPossibleSolutions.size(); i++) {
-            if (xCoordinatesPossibleSolutions[i].p2 == xCoordinatesPossibleSolutions[i + 1].p2 &&
-                xCoordinatesPossibleSolutions[i].p2 - i == 1) {
+        for (int i = 0; i < xCoordinatesPossibleSolutions.size() - 1; i++) {
+            if ((xCoordinatesPossibleSolutions[i].p2 == xCoordinatesPossibleSolutions[i + 1].p2) &&
+                xCoordinatesPossibleSolutions[i].p2 - j == 0) {
                 return emptyVector;
             }
         }
 
-        for (int i = 0; i < yCoordinatesPossibleSolutions.size(); i++) {
-            if (yCoordinatesPossibleSolutions[i].p2 == yCoordinatesPossibleSolutions[i + 1].p2 &&
-                yCoordinatesPossibleSolutions[i].p2 - i == 1) {
+        for (int i = 0; i < yCoordinatesPossibleSolutions.size() - 1; i++) {
+            if ((yCoordinatesPossibleSolutions[i].p2 == yCoordinatesPossibleSolutions[i + 1].p2) &&
+                yCoordinatesPossibleSolutions[i].p2 - j == 0) {
                 return emptyVector;
             }
         }
 
         xCoordinatesResults.push_back(xCoordinatesPossibleSolutions[0].num);
         yCoordinatesResults.push_back(yCoordinatesPossibleSolutions[0].num);
-
-        std::cout << "Final solution: " << yCoordinatesPossibleSolutions[0].num << std::endl;
 
         for (int i = 0; i < n; i++) {
             if (xCoordinates[i].num == xCoordinatesPossibleSolutions[0].num) {
@@ -104,19 +96,24 @@ std::vector<Position> solve(const std::vector<Preference> &preference) {
         yCoordinatesPossibleSolutions.clear();
     }
 
-    std::cout << "X" << std::endl;
+    vector<int> xCoordinatesResultsInverted(xCoordinatesResults.size());
+    vector<int> yCoordinatesResultsInverted(yCoordinatesResults.size());
+
     for (int i = 0; i < xCoordinatesResults.size(); i++) {
-        std::cout << i + 1 << ": " << xCoordinatesResults[i] << std::endl;
+        int numberValue = xCoordinatesResults[i];
+        std::cout << i << ": " << numberValue << std::endl;
+        xCoordinatesResultsInverted[numberValue - 1] = i + 1;
     }
 
-    std::cout << "Y" << std::endl;
     for (int i = 0; i < yCoordinatesResults.size(); i++) {
-        std::cout << i + 1 << ": " << yCoordinatesResults[i] << std::endl;
+        int numberValue = yCoordinatesResults[i];
+        std::cout << i << ": " << numberValue << std::endl;
+        yCoordinatesResultsInverted[numberValue - 1] = i + 1;
     }
 
     vector<Position> res(n);
     for (int i = 0; i < res.size(); i++) {
-        res[i] = {xCoordinatesResults[i], yCoordinatesResults[i]};
+        res[i] = {xCoordinatesResultsInverted[i], yCoordinatesResultsInverted[i]};
     }
 
     return res;
