@@ -19,8 +19,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="Altered algorithm">
+      <change afterPath="$PROJECT_DIR$/basics/header/TestingFile.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/header/TestingHeader.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/computer_science_olympiad/central matura/matura_testing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/computer_science_olympiad/central matura/matura_testing.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,15 +81,15 @@
       <recent name="C:\Users\gasha\Documents\CPP_Basics\data types" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.matura_testing.cpp">
-    <configuration name="grader.cpp (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="grader.cpp" CONFIG_NAME="grader.cpp">
-      <option name="sourceFile" value="computer_science_olympiad\central matura\grader.cpp" />
+  <component name="RunManager" selected="C/C++ File.TestingFile.cpp">
+    <configuration name="TestingFile.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="TestingFile.cpp" CONFIG_NAME="TestingFile.cpp">
+      <option name="sourceFile" value="basics\header\TestingFile.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="grader.cpp (2)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="grader.cpp" CONFIG_NAME="grader.cpp">
-      <option name="sourceFile" value="computer_science_olympiad\cpp\grader.cpp" />
+    <configuration name="Vectors.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Vectors.cpp" CONFIG_NAME="Vectors.cpp">
+      <option name="sourceFile" value="basics\Vectors.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.TestingFile.cpp" />
+        <item itemvalue="C/C++ File.Vectors.cpp" />
         <item itemvalue="C/C++ File.matura_testing.cpp" />
         <item itemvalue="Makefile Target.cmake_force" />
         <item itemvalue="Makefile Target.cmake_force" />
-        <item itemvalue="C/C++ File.grader.cpp (1)" />
-        <item itemvalue="C/C++ File.grader.cpp (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +187,9 @@
       <workItem from="1704452408388" duration="5590000" />
       <workItem from="1704539656434" duration="13998000" />
       <workItem from="1704572469525" duration="6555000" />
-      <workItem from="1704632189553" duration="5070000" />
+      <workItem from="1704632189553" duration="5148000" />
+      <workItem from="1705008072163" duration="263000" />
+      <workItem from="1706393842126" duration="700000" />
     </task>
     <task id="LOCAL-00001" summary="Altered algorithm">
       <option name="closed" value="true" />
