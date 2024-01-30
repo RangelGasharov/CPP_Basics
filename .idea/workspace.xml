@@ -19,7 +19,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="Altered algorithm">
-      <change afterPath="$PROJECT_DIR$/basics/HashTable.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/PriorityQueue.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,9 +80,15 @@
       <recent name="C:\Users\gasha\Documents\CPP_Basics\data types" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.HashTable.cpp">
+  <component name="RunManager" selected="C/C++ File.PriorityQueue.cpp">
     <configuration name="HashTable.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="HashTable.cpp" CONFIG_NAME="HashTable.cpp">
       <option name="sourceFile" value="basics\HashTable.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriorityQueue.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="PriorityQueue.cpp" CONFIG_NAME="PriorityQueue.cpp">
+      <option name="sourceFile" value="basics\PriorityQueue.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -105,19 +111,13 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="matura_testing.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="matura_testing.cpp" CONFIG_NAME="matura_testing.cpp">
-      <option name="sourceFile" value="computer_science_olympiad\central matura\matura_testing.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.PriorityQueue.cpp" />
         <item itemvalue="C/C++ File.HashTable.cpp" />
         <item itemvalue="C/C++ File.Recursion.cpp" />
         <item itemvalue="C/C++ File.TestingFile.cpp" />
         <item itemvalue="C/C++ File.Vectors.cpp" />
-        <item itemvalue="C/C++ File.matura_testing.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +191,8 @@
       <workItem from="1706393842126" duration="728000" />
       <workItem from="1706477736773" duration="3480000" />
       <workItem from="1706510746171" duration="3309000" />
-      <workItem from="1706559679229" duration="2059000" />
+      <workItem from="1706559679229" duration="2112000" />
+      <workItem from="1706625839956" duration="3191000" />
     </task>
     <task id="LOCAL-00001" summary="Altered algorithm">
       <option name="closed" value="true" />
