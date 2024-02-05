@@ -19,7 +19,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="Altered algorithm">
-      <change afterPath="$PROJECT_DIR$/basics/Pointers2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/LambdaFunction.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,15 +81,15 @@
       <recent name="C:\Users\gasha\Documents\CPP_Basics\data types" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.Pointers2.cpp">
+  <component name="RunManager" selected="C/C++ File.LambdaFunction.cpp">
     <configuration name="BinarySearchTree.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="BinarySearchTree.cpp" CONFIG_NAME="BinarySearchTree.cpp">
       <option name="sourceFile" value="basics\BinarySearchTree.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashTable.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="HashTable.cpp" CONFIG_NAME="HashTable.cpp">
-      <option name="sourceFile" value="basics\HashTable.cpp" />
+    <configuration name="LambdaFunction.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="LambdaFunction.cpp" CONFIG_NAME="LambdaFunction.cpp">
+      <option name="sourceFile" value="basics\LambdaFunction.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.LambdaFunction.cpp" />
         <item itemvalue="C/C++ File.Pointers2.cpp" />
         <item itemvalue="C/C++ File.BinarySearchTree.cpp" />
         <item itemvalue="C/C++ File.Quicksort.cpp" />
         <item itemvalue="C/C++ File.PriorityQueue.cpp" />
-        <item itemvalue="C/C++ File.HashTable.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +199,8 @@
       <workItem from="1706788627299" duration="1190000" />
       <workItem from="1706811839286" duration="2198000" />
       <workItem from="1706953857003" duration="649000" />
-      <workItem from="1707077291035" duration="602000" />
+      <workItem from="1707077291035" duration="723000" />
+      <workItem from="1707164948820" duration="693000" />
     </task>
     <task id="LOCAL-00001" summary="Altered algorithm">
       <option name="closed" value="true" />
