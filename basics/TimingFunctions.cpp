@@ -1,9 +1,8 @@
 #include <iostream>
 #include <chrono>
-#include <thread>
 
 struct Timer {
-    std::chrono::time_point<std::chrono::steady_clock> start, end;
+    std::chrono::time_point<std::chrono::high_resolution_clock> start, end;
     std::chrono::duration<float> duration;
 
     Timer() {
@@ -15,7 +14,7 @@ struct Timer {
         duration = end - start;
 
         float ms = duration.count() * 1000.0f;
-        std::cout << "Timer took" << ms << "ms" << std::endl;
+        std::cout << "Timer took " << ms << "ms" << std::endl;
     }
 };
 
@@ -27,6 +26,8 @@ void Function() {
 }
 
 int main() {
+    Function();
+    Function();
     Function();
     return 0;
 }
