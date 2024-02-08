@@ -19,8 +19,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="Altered algorithm">
+      <change afterPath="$PROJECT_DIR$/basics/Benchmarking.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/Dijkstra Algorithm.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/TimingFunctions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/basics/TimingFunctions.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,9 +82,15 @@
       <recent name="C:\Users\gasha\Documents\CPP_Basics\data types" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.TimingFunctions.cpp">
-    <configuration name="BinarySearchTree.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="BinarySearchTree.cpp" CONFIG_NAME="BinarySearchTree.cpp">
-      <option name="sourceFile" value="basics\BinarySearchTree.cpp" />
+  <component name="RunManager" selected="C/C++ File.Benchmarking.cpp">
+    <configuration name="Benchmarking.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Benchmarking.cpp" CONFIG_NAME="Benchmarking.cpp">
+      <option name="sourceFile" value="basics\Benchmarking.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dijkstra Algorithm.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Dijkstra Algorithm.cpp" CONFIG_NAME="Dijkstra Algorithm.cpp">
+      <option name="sourceFile" value="basics\Dijkstra Algorithm.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -100,12 +107,6 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Quicksort.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Quicksort.cpp" CONFIG_NAME="Quicksort.cpp">
-      <option name="sourceFile" value="basics\Quicksort.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TimingFunctions.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="TimingFunctions.cpp" CONFIG_NAME="TimingFunctions.cpp">
       <option name="sourceFile" value="basics\TimingFunctions.cpp" />
       <method v="2">
@@ -114,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.Benchmarking.cpp" />
+        <item itemvalue="C/C++ File.Dijkstra Algorithm.cpp" />
         <item itemvalue="C/C++ File.TimingFunctions.cpp" />
         <item itemvalue="C/C++ File.LambdaFunction.cpp" />
         <item itemvalue="C/C++ File.Pointers2.cpp" />
-        <item itemvalue="C/C++ File.BinarySearchTree.cpp" />
-        <item itemvalue="C/C++ File.Quicksort.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +203,8 @@
       <workItem from="1707077291035" duration="723000" />
       <workItem from="1707164948820" duration="1311000" />
       <workItem from="1707249589973" duration="1869000" />
-      <workItem from="1707321997813" duration="288000" />
+      <workItem from="1707321997813" duration="4328000" />
+      <workItem from="1707429317347" duration="1239000" />
     </task>
     <task id="LOCAL-00001" summary="Altered algorithm">
       <option name="closed" value="true" />
