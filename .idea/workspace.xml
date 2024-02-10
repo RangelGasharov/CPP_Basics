@@ -19,7 +19,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="Altered algorithm">
-      <change afterPath="$PROJECT_DIR$/basics/StructuredBindings.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/Iterators.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,7 @@
       <recent name="C:\Users\gasha\Documents\CPP_Basics\data types" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.StructuredBindings.cpp">
+  <component name="RunManager" selected="C/C++ File.Iterators.cpp">
     <configuration name="Benchmarking.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Benchmarking.cpp" CONFIG_NAME="Benchmarking.cpp">
       <option name="sourceFile" value="basics\Benchmarking.cpp" />
       <method v="2">
@@ -94,8 +94,8 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaFunction.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="LambdaFunction.cpp" CONFIG_NAME="LambdaFunction.cpp">
-      <option name="sourceFile" value="basics\LambdaFunction.cpp" />
+    <configuration name="Iterators.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Iterators.cpp" CONFIG_NAME="Iterators.cpp">
+      <option name="sourceFile" value="basics\Iterators.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.Iterators.cpp" />
         <item itemvalue="C/C++ File.StructuredBindings.cpp" />
         <item itemvalue="C/C++ File.Benchmarking.cpp" />
         <item itemvalue="C/C++ File.Dijkstra Algorithm.cpp" />
         <item itemvalue="C/C++ File.TimingFunctions.cpp" />
-        <item itemvalue="C/C++ File.LambdaFunction.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +204,8 @@
       <workItem from="1707249589973" duration="1869000" />
       <workItem from="1707321997813" duration="4328000" />
       <workItem from="1707429317347" duration="1501000" />
-      <workItem from="1707475857729" duration="795000" />
+      <workItem from="1707475857729" duration="840000" />
+      <workItem from="1707585268386" duration="1524000" />
     </task>
     <task id="LOCAL-00001" summary="Altered algorithm">
       <option name="closed" value="true" />
