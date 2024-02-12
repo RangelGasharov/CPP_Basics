@@ -19,7 +19,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="Altered algorithm">
-      <change afterPath="$PROJECT_DIR$/basics/Map.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/Reference.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,15 +81,9 @@
       <recent name="C:\Users\gasha\Documents\CPP_Basics\data types" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.Map.cpp">
+  <component name="RunManager" selected="C/C++ File.Reference.cpp">
     <configuration name="Benchmarking.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Benchmarking.cpp" CONFIG_NAME="Benchmarking.cpp">
       <option name="sourceFile" value="basics\Benchmarking.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dijkstra Algorithm.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Dijkstra Algorithm.cpp" CONFIG_NAME="Dijkstra Algorithm.cpp">
-      <option name="sourceFile" value="basics\Dijkstra Algorithm.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -106,6 +100,12 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Reference.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Reference.cpp" CONFIG_NAME="Reference.cpp">
+      <option name="sourceFile" value="basics\Reference.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StructuredBindings.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="StructuredBindings.cpp" CONFIG_NAME="StructuredBindings.cpp">
       <option name="sourceFile" value="basics\StructuredBindings.cpp" />
       <method v="2">
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.Reference.cpp" />
         <item itemvalue="C/C++ File.Map.cpp" />
         <item itemvalue="C/C++ File.Iterators.cpp" />
         <item itemvalue="C/C++ File.StructuredBindings.cpp" />
         <item itemvalue="C/C++ File.Benchmarking.cpp" />
-        <item itemvalue="C/C++ File.Dijkstra Algorithm.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +206,8 @@
       <workItem from="1707429317347" duration="1501000" />
       <workItem from="1707475857729" duration="840000" />
       <workItem from="1707585268386" duration="1567000" />
-      <workItem from="1707687915516" duration="1687000" />
+      <workItem from="1707687915516" duration="2051000" />
+      <workItem from="1707763294584" duration="557000" />
     </task>
     <task id="LOCAL-00001" summary="Altered algorithm">
       <option name="closed" value="true" />
