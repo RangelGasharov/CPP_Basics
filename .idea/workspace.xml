@@ -19,7 +19,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="Altered algorithm">
-      <change afterPath="$PROJECT_DIR$/basics/Reference.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/Union.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,13 +81,7 @@
       <recent name="C:\Users\gasha\Documents\CPP_Basics\data types" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.Reference.cpp">
-    <configuration name="Benchmarking.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Benchmarking.cpp" CONFIG_NAME="Benchmarking.cpp">
-      <option name="sourceFile" value="basics\Benchmarking.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="C/C++ File.Union.cpp">
     <configuration name="Iterators.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Iterators.cpp" CONFIG_NAME="Iterators.cpp">
       <option name="sourceFile" value="basics\Iterators.cpp" />
       <method v="2">
@@ -112,13 +106,19 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Union.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Union.cpp" CONFIG_NAME="Union.cpp">
+      <option name="sourceFile" value="basics\Union.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.Union.cpp" />
         <item itemvalue="C/C++ File.Reference.cpp" />
         <item itemvalue="C/C++ File.Map.cpp" />
         <item itemvalue="C/C++ File.Iterators.cpp" />
         <item itemvalue="C/C++ File.StructuredBindings.cpp" />
-        <item itemvalue="C/C++ File.Benchmarking.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +207,8 @@
       <workItem from="1707475857729" duration="840000" />
       <workItem from="1707585268386" duration="1567000" />
       <workItem from="1707687915516" duration="2051000" />
-      <workItem from="1707763294584" duration="557000" />
+      <workItem from="1707763294584" duration="795000" />
+      <workItem from="1707859341116" duration="1051000" />
     </task>
     <task id="LOCAL-00001" summary="Altered algorithm">
       <option name="closed" value="true" />
