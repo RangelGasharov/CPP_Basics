@@ -19,8 +19,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="Altered algorithm">
+      <change afterPath="$PROJECT_DIR$/basics/MergeSort.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding_contest/GeneticDrift.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/coding_contest/GeneticDrift.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
       <recent name="C:\Users\gasha\Documents\CPP_Basics\data types" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.GeneticDrift.cpp">
+  <component name="RunManager" selected="C/C++ File.MergeSort.cpp">
     <configuration name="BinarySearch.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="BinarySearch.cpp" CONFIG_NAME="BinarySearch.cpp">
       <option name="sourceFile" value="basics\BinarySearch.cpp" />
       <method v="2">
@@ -100,8 +100,8 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reference.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Reference.cpp" CONFIG_NAME="Reference.cpp">
-      <option name="sourceFile" value="basics\Reference.cpp" />
+    <configuration name="MergeSort.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="MergeSort.cpp" CONFIG_NAME="MergeSort.cpp">
+      <option name="sourceFile" value="basics\MergeSort.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.MergeSort.cpp" />
         <item itemvalue="C/C++ File.GeneticDrift.cpp" />
         <item itemvalue="C/C++ File.BinarySearch.cpp" />
         <item itemvalue="C/C++ File.Inheritance.cpp" />
         <item itemvalue="C/C++ File.Union.cpp" />
-        <item itemvalue="C/C++ File.Reference.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +213,7 @@
       <workItem from="1708021930658" duration="3156000" />
       <workItem from="1708185323756" duration="8603000" />
       <workItem from="1708248910341" duration="4777000" />
-      <workItem from="1708268676420" duration="2216000" />
+      <workItem from="1708268676420" duration="8587000" />
     </task>
     <task id="LOCAL-00001" summary="Altered algorithm">
       <option name="closed" value="true" />
