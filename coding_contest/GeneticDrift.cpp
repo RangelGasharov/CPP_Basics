@@ -1,7 +1,11 @@
 #include <iostream>
 #include <vector>
-#include<algorithm>
+#include <algorithm>
 #include <string>
+
+struct Position {
+    int x, y;
+};
 
 std::vector<int> getPermutations(std::string permutationString) {
     std::string currentNumberAsString;
@@ -22,6 +26,10 @@ std::vector<int> getPermutations(std::string permutationString) {
     return result;
 }
 
+bool compareByXCoordinates(const Position &a, const Position &b) {
+    return a.x < b.x;
+}
+
 void printPermutations(std::vector<int> permutations) {
     for (int i = 0; i < permutations.size(); i++) {
         std::cout << permutations[i] << " ";
@@ -29,49 +37,49 @@ void printPermutations(std::vector<int> permutations) {
     std::cout << std::endl;
 }
 
-std::vector<int> getOrientedPairs(std::vector<int> permutations) {
+void printOrientedPairs(std::vector<Position> orientedPairs) {
+    for (int i = 0; i < orientedPairs.size(); i++) {
+        std::cout << orientedPairs[i].x << " " << orientedPairs[i].y << " ";
+    }
+    std::cout << std::endl;
+}
+
+std::vector<Position> getOrientedPairs(std::vector<int> permutations) {
     int permutationLength = permutations[0];
     permutations.erase(permutations.begin());
-    std::sort(permutations.begin(), permutations.end());
+    std::vector<Position> orientedPairs;
 
-    std::vector<int> orientedPairs;
-    int borderIndex = 0;
     for (int i = 0; i < permutationLength; i++) {
-        if (permutations[i] >= 0) {
-            borderIndex = i;
-            break;
-        }
-    }
+        int x = permutations[i];
+        int xAbsolute = abs(x);
 
-    for (int i = borderIndex - 1; i >= 0; i--) {
-        int y = permutations[i];
-        int yAbsolute = abs(y);
-        for (int j = 0; j < permutationLength; j++) {
-            int x = permutations[j];
-            if (yAbsolute - x == 1 || yAbsolute - x == -1) {
-                orientedPairs.push_back(x);
-                orientedPairs.push_back(y);
+        for (int j = i; j < permutationLength; j++) {
+            int y = permutations[j];
+            int yAbsolute = abs(y);
+            if ((xAbsolute - yAbsolute == 1 || xAbsolute - yAbsolute == -1) && ((x > 0 && y < 0) || (x < 0 && y > 0))) {
+                orientedPairs.push_back({x, y});
             }
         }
     }
-    int orientedPairsLength = orientedPairs.size() / 2;
-    orientedPairs.insert(orientedPairs.begin(), orientedPairsLength);
+    int orientedPairsLength = orientedPairs.size();
+    std::sort(orientedPairs.begin(), orientedPairs.end(), compareByXCoordinates);
+    orientedPairs.insert(orientedPairs.begin(), {orientedPairsLength});
 
     return orientedPairs;
 }
 
 int main() {
     std::vector<int> permutations_1 = getPermutations("8 0 3 1 6 5 -2 4 7");
-    std::vector<int> orientedPairs_1 = getOrientedPairs(permutations_1);
-    printPermutations(orientedPairs_1);
+    std::vector<Position> orientedPairs_1 = getOrientedPairs(permutations_1);
+    printOrientedPairs(orientedPairs_1);
 
     std::vector<int> permutations_2 = getPermutations("9 3 1 6 5 -2 4 -7 8 9");
-    std::vector<int> orientedPairs_2 = getOrientedPairs(permutations_2);
-    printPermutations(orientedPairs_2);
+    std::vector<Position> orientedPairs_2 = getOrientedPairs(permutations_2);
+    printOrientedPairs(orientedPairs_2);
 
     std::vector<int> permutations_3 = getPermutations("8 0 -5 -6 -1 -3 -2 4 7");
-    std::vector<int> orientedPairs_3 = getOrientedPairs(permutations_3);
-    printPermutations(orientedPairs_3);
+    std::vector<Position> orientedPairs_3 = getOrientedPairs(permutations_3);
+    printOrientedPairs(orientedPairs_3);
 
 
     std::vector<int> permutations_4 = getPermutations("193 125 133 134 135 136 -52 -51"
@@ -88,7 +96,8 @@ int main() {
                                                       " -103 -102 -101 -100 -99 -98 -97 153 154 155 156 157 158 -148"
                                                       " -147 -146 -145 -144 -143 -142 -141 -140 -139 -138 -137 -85 -84"
                                                       " -83 -82 -81 -80 -79 -78 -152 -151 -150 -149");
-    std::vector<int> orientedPairs_4 = getOrientedPairs(permutations_4);
-    printPermutations(orientedPairs_4);
+    std::vector<Position> orientedPairs_4 = getOrientedPairs(permutations_4);
+    printOrientedPairs(orientedPairs_4);
+
     return 0;
 }
