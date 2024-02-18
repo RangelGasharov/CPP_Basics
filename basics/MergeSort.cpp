@@ -1,8 +1,6 @@
 #include <iostream>
-using namespace std;
 
-void merge(int arr[], int l, int m, int r, int size)
-{
+void merge(int arr[], int l, int m, int r, int size) {
     int i = l;
     int j = m + 1;
     int k = l;
@@ -14,8 +12,7 @@ void merge(int arr[], int l, int m, int r, int size)
             temp[k] = arr[i];
             i++;
             k++;
-        }
-        else {
+        } else {
             temp[k] = arr[j];
             j++;
             k++;
@@ -39,8 +36,7 @@ void merge(int arr[], int l, int m, int r, int size)
     }
 }
 
-void mergeSort(int arr[], int l, int r, int size)
-{
+void mergeSort(int arr[], int l, int r, int size) {
     if (l < r) {
         int m = (l + r) / 2;
 
@@ -51,22 +47,21 @@ void mergeSort(int arr[], int l, int r, int size)
     }
 }
 
-int main()
-{
+int main() {
     int exampleArray[] = {1, 20, 332, 1, 2, 100, 14, 37, 99, 15, 1};
     int size = sizeof(exampleArray) / sizeof(exampleArray[0]);
 
-    cout << "Before Sorting" << endl;
+    std::cout << "Before Sorting" << std::endl;
     for (int i = 0; i < size; i++) {
-        cout << exampleArray[i] << " ";
+        std::cout << exampleArray[i] << " ";
     }
-    cout << endl;
+    std::cout << std::endl;
 
     mergeSort(exampleArray, 0, (size - 1), size);
 
-    cout << "After Sorting" << endl;
+    std::cout << "After Sorting" << std::endl;
     for (int i = 0; i < size; i++) {
-        cout << exampleArray[i] << " ";
+        std::cout << exampleArray[i] << " ";
     }
 
     return 0;
