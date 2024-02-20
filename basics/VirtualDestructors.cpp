@@ -1,27 +1,31 @@
 #include <iostream>
-#include <string>
 
-void printEntity();
 
-class Entity {
+class Base {
 public:
-    int x, y;
+    Base() { std::cout << "Base Constructor\n"; }
 
-    Entity(int x, int y) {
-        this->x = x;
-        this->y = y;
-
-        Entity &e = *this;
-        printEntity(*this);
-    }
-
-    int getX() const {
-        const Entity &e = *this;
-    }
+    virtual ~Base() { std::cout << "Base Destructor\n"; }
 };
 
-void printEntity(const Entity &e);
+class Derived : public Base {
+public:
+    Derived() { std::cout << "Derived Constructor\n"; }
+
+    ~Derived() { std::cout << "Derived Destructor\n"; }
+};
 
 int main() {
+    Base* base = new Base();
+    delete base;
+    std::cout << "---------------" << std::endl;
+
+    Derived* derived = new Derived();
+    delete derived;
+    std::cout << "---------------" << std::endl;
+
+    Base* poly = new Derived();
+    delete poly;
+
     return 0;
 }
