@@ -42,11 +42,9 @@ void findExit() {
             currentNote = readNote();
 
             if (currentNote.empty()) {
-                std::cout << "State 1_empty" << std::endl;
                 currentState = 2;
                 continue;
             } else {
-                std::cout << "State 1_written" << std::endl;
                 auto [value1, value2, value3] = getNoteComponents(currentNote);
                 originDoor = value1;
                 nextDoor = value2;
@@ -63,14 +61,11 @@ void findExit() {
 
         while (currentState = 2) {
             amountOfDoors = numOfDoors();
-            std::cout << "-----------------------------------" << std::endl;
             currentNote = readNote();
 
             if (currentNote.empty()) {
-                std::cout << "State 2_empty" << std::endl;
                 nextDoor = 1;
                 if (nextDoor == originDoor) {
-                    std::cout << "State 2_nextDoor and originDoor equal" << std::endl;
                     if (nextDoor + 1 <= amountOfDoors) {
                         nextDoor += 1;
                     } else {
@@ -80,7 +75,6 @@ void findExit() {
                 }
 
                 currentNote = generateNote(originDoor, nextDoor, isChecked);
-                std::cout << currentNote << std::endl;
                 takeNote(currentNote);
 
                 originDoorCopy = takeDoor(nextDoor);
@@ -90,16 +84,13 @@ void findExit() {
 
                 isChecked = 1;
                 currentNote = generateNote(originDoor, nextDoor, isChecked);
-                std::cout << currentNote << std::endl;
                 takeNote(currentNote);
                 isChecked = 0;
                 originDoor = takeDoor(nextDoor);
 
             } else {
-                std::cout << "State 2_written" << std::endl;
                 currentNote = readNote();
                 amountOfDoors = numOfDoors();
-                std::cout << currentNote << std::endl;
                 auto [value1, value2, value3] = getNoteComponents(currentNote);
                 originDoor = value1;
                 nextDoor = value2;
@@ -130,7 +121,6 @@ void findExit() {
                     isChecked = value3;
 
                     if ((nextDoor == amountOfDoors && isChecked == 1) || (amountOfDoors == 1)) {
-                        std::cout << "Get back" << std::endl;
                         takeDoor(originDoor);
                         currentNote = readNote();
                         amountOfDoors = numOfDoors();
@@ -154,16 +144,13 @@ void findExit() {
                 takeDoor(originDoorCopy);
                 isChecked = 1;
                 currentNote = generateNote(originDoor, nextDoor, isChecked);
-                std::cout << currentNote << std::endl;
                 takeNote(currentNote);
                 isChecked = 0;
-                std::cout << originDoor << std::endl;
                 originDoor = takeDoor(nextDoor);
             }
         }
 
         while (currentState == 3) {
-            std::cout << "State 3" << std::endl;
             auto [value1, value2, value3] = getNoteComponents(currentNote);
         }
     }
