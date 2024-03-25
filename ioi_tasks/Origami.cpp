@@ -41,7 +41,7 @@ void fillUpTable(vector<vector<int>> &table, int longSide, int shortSide) {
             int value{0};
             value = findSmallestCombination(table, i + 1, j + 1) + 1;
             table[i][j] = value;
-            if (i < longSide) {
+            if (i < shortSide) {
                 table[j][i] = value;
             }
         }
