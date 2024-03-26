@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <climits>
+#include <fstream>
 
 using namespace std;
 
@@ -48,13 +49,16 @@ void fillUpTable(vector<vector<int>> &table, int longSide, int shortSide) {
     }
 }
 
-void printTable(vector<vector<int>> table) {
+void writeCSV(vector<vector<int>> table) {
+    string fileName = "myFile.csv";
+    ofstream outFile(fileName);
     for (int i = 0; i < table.size(); i++) {
         for (int j = 0; j < table[i].size(); j++) {
-            cout << table[i][j] << " ";
+            outFile << table[i][j] << ", ";
         }
-        cout << endl;
+        outFile << endl;
     }
+    outFile.close();
 }
 
 int getMinimumAmountOfCuts(int a, int b) {
@@ -75,6 +79,7 @@ int getMinimumAmountOfCuts(int a, int b) {
 
     vector<vector<int>> dp(longSide, vector<int>(shortSide));
     fillUpTable(dp, longSide, shortSide);
+    writeCSV(dp);
     return dp[longSide - 1][shortSide - 1];
 }
 
