@@ -54,9 +54,13 @@ void writeCSV(vector<vector<int>> table) {
     ofstream outFile(fileName);
     for (int i = 0; i < table.size(); i++) {
         for (int j = 0; j < table[i].size(); j++) {
-            outFile << table[i][j] << ", ";
+            if (j == table[i].size() - 1) {
+                outFile << table[i][j];
+            } else {
+                outFile << table[i][j] << ",";
+            }
         }
-        outFile << endl;
+        outFile << "\n";
     }
     outFile.close();
 }
