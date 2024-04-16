@@ -18,9 +18,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/basics/LongestIncreasingSubsequence.cpp" afterDir="false" />
+    <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="Added an example of the backpack problem">
+      <change afterPath="$PROJECT_DIR$/ioi_tasks/Permutations.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioi_tasks/Test.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,21 +82,9 @@
       <recent name="C:\Users\gasha\Documents\CPP_Basics\data types" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.LongestIncreasingSubsequence.cpp">
+  <component name="RunManager" selected="C/C++ File.SubSetsComb.cpp">
     <configuration name="AllSubsets.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="AllSubsets.cpp" CONFIG_NAME="AllSubsets.cpp">
       <option name="sourceFile" value="ioi_tasks\AllSubsets.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DijkstraShortestPath.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="DijkstraShortestPath.cpp" CONFIG_NAME="DijkstraShortestPath.cpp">
-      <option name="sourceFile" value="ioi_tasks\DijkstraShortestPath.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ETF.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="ETF.cpp" CONFIG_NAME="ETF.cpp">
-      <option name="sourceFile" value="ioi_tasks\ETF.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -106,25 +95,37 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestIncreasingSubsequence.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="LongestIncreasingSubsequence.cpp" CONFIG_NAME="LongestIncreasingSubsequence.cpp">
-      <option name="sourceFile" value="basics\LongestIncreasingSubsequence.cpp" />
+    <configuration name="Origami.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Origami.cpp" CONFIG_NAME="Origami.cpp">
+      <option name="sourceFile" value="ioi_tasks\Origami.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NSum.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="NSum.cpp" CONFIG_NAME="NSum.cpp">
-      <option name="sourceFile" value="ioi_tasks\NSum.cpp" />
+    <configuration name="Permutations.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Permutations.cpp" CONFIG_NAME="Permutations.cpp">
+      <option name="sourceFile" value="ioi_tasks\Permutations.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubSetsComb.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="SubSetsComb.cpp" CONFIG_NAME="SubSetsComb.cpp">
+      <option name="sourceFile" value="ioi_tasks\SubSetsComb.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testing.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_Basics" TARGET_NAME="Testing.cpp" CONFIG_NAME="Testing.cpp">
+      <option name="sourceFile" value="ioi_tasks\Testing.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="C/C++ File.LongestIncreasingSubsequence.cpp" />
-        <item itemvalue="C/C++ File.DijkstraShortestPath.cpp" />
-        <item itemvalue="C/C++ File.NSum.cpp" />
+        <item itemvalue="C/C++ File.SubSetsComb.cpp" />
+        <item itemvalue="C/C++ File.Testing.cpp" />
         <item itemvalue="C/C++ File.AllSubsets.cpp" />
-        <item itemvalue="C/C++ File.ETF.cpp" />
+        <item itemvalue="C/C++ File.Permutations.cpp" />
+        <item itemvalue="C/C++ File.Origami.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +238,26 @@
       <workItem from="1710606660942" duration="25000" />
       <workItem from="1710714398992" duration="31000" />
       <workItem from="1710798866875" duration="183000" />
-      <workItem from="1710885452098" duration="505000" />
+      <workItem from="1710885452098" duration="537000" />
+      <workItem from="1711141206877" duration="1613000" />
+      <workItem from="1711145530941" duration="763000" />
+      <workItem from="1711203322184" duration="11239000" />
+      <workItem from="1711268899641" duration="17337000" />
+      <workItem from="1711315860794" duration="110000" />
+      <workItem from="1711359262607" duration="14427000" />
+      <workItem from="1711384389703" duration="405000" />
+      <workItem from="1711404380458" duration="1211000" />
+      <workItem from="1711406332218" duration="136000" />
+      <workItem from="1711446994275" duration="2356000" />
+      <workItem from="1711459390471" duration="1513000" />
+      <workItem from="1711472880257" duration="1384000" />
+      <workItem from="1711492483671" duration="63000" />
+      <workItem from="1711492620301" duration="15000" />
+      <workItem from="1711531488527" duration="1680000" />
+      <workItem from="1711622944225" duration="609000" />
+      <workItem from="1711648949055" duration="1153000" />
+      <workItem from="1713297407809" duration="159000" />
+      <workItem from="1713297696090" duration="455000" />
     </task>
     <task id="LOCAL-00001" summary="Altered algorithm">
       <option name="closed" value="true" />
@@ -311,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709497591475</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added an example of the backpack problem">
+      <option name="closed" value="true" />
+      <created>1711227590640</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711227590640</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,6 +372,7 @@
     <MESSAGE value="Added a program to calculate the nth Fibonacci number." />
     <MESSAGE value="Added a program to calculate the Binomial Coefficient" />
     <MESSAGE value="Added an example on how to get the Integer Partition (n-sum)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added an example on how to get the Integer Partition (n-sum)" />
+    <MESSAGE value="Added an example of the backpack problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added an example of the backpack problem" />
   </component>
 </project>
