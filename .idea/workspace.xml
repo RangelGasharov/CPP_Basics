@@ -18,10 +18,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="Added an example of the backpack problem">
+    <list default="true" id="b4e81053-7c8b-4f94-84cf-cb013cfe0a66" name="Changes" comment="Refactoring - deleted unnecessary file">
       <change afterPath="$PROJECT_DIR$/ioi_tasks/Permutations.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioi_tasks/Test.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +255,7 @@
       <workItem from="1711622944225" duration="609000" />
       <workItem from="1711648949055" duration="1153000" />
       <workItem from="1713297407809" duration="159000" />
-      <workItem from="1713297696090" duration="455000" />
+      <workItem from="1713297696090" duration="1181000" />
     </task>
     <task id="LOCAL-00001" summary="Altered algorithm">
       <option name="closed" value="true" />
@@ -339,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711227590640</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Refactoring - deleted unnecessary file">
+      <option name="closed" value="true" />
+      <created>1713298284496</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713298284497</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,6 +379,7 @@
     <MESSAGE value="Added a program to calculate the Binomial Coefficient" />
     <MESSAGE value="Added an example on how to get the Integer Partition (n-sum)" />
     <MESSAGE value="Added an example of the backpack problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added an example of the backpack problem" />
+    <MESSAGE value="Refactoring - deleted unnecessary file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring - deleted unnecessary file" />
   </component>
 </project>
