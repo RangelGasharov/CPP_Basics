@@ -1,35 +1,30 @@
-#include <iostream>
 #include <vector>
+#include <iostream>
 
 using namespace std;
 
-vector<vector<int>> getAllSubSets(int n, int k) {
-    vector<vector<int>> subSets;
-    vector<int> numbers;
-    vector<int> temp;
-    for (int i = 0; i < n; i++) { numbers.push_back(i + 1); }
-
-    for (int i = 0; i < n - k + 1; i++) {
-
-    }
-
-
-    /*for (int i = 0; i < n - k + 1; i++) {
-        for (int j = i + k; j > i; j--) {
-            for (int l = i; l < j; l++) {
-                cout << numbers[l];
-            }
-            cout << endl;
+void printSubSets(int n, vector<int> vector)
+{
+    if (n == 0)
+    {
+        for (int x : vector)
+        {
+            cout << x << " ";
         }
-    }*/
-    if (k > 1) {
-        getAllSubSets(n - 1, k - 1);
-    } else {
-        return subSets;
+        cout << "\n";
+        return;
     }
+
+    printSubSets(n - 1, vector);
+    vector.push_back(n);
+    printSubSets(n - 1, vector);
+    vector.pop_back();
 }
 
-int main() {
-    getAllSubSets(6, 3);
+int main()
+{
+    int n{0};
+    cin >> n;
+    printSubSets(n, {});
     return 0;
 }
