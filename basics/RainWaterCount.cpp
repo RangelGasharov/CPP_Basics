@@ -1,39 +1,38 @@
 #include <iostream>
 #include <vector>
 
-int getWaterBetweenSteps(std::vector<int> stepsVector);
-
-int main()
-{
-    std::vector<int> stepsVector{3, 0, 0, 1};
-    int waterVolume = getWaterBetweenSteps(stepsVector);
-    std::cout << "Water Volume " + waterVolume << std::endl;
-    return 0;
-}
-
 int getWaterBetweenSteps(std::vector<int> stepsVector)
 {
-    int volumeOfWater = 0;
-    int currentVolumeOfStairs = 0;
-    int leftIndex = 0;
-    int rightIndex = 0;
-    int leftHeight = stepsVector[0];
-    int rightHeight = 0;
-    for (int i = 0; i < stepsVector.size() - 1; i++)
+    int volumeOfWater{0};
+    int leftIndex{0};
+    int rightIndex = stepsVector.size() - 1;
+    int leftMaxHeight{stepsVector[leftIndex]};
+    int rightMaxHeight{stepsVector[rightIndex]};
+    while (leftIndex < rightIndex)
     {
-        rightHeight = stepsVector[i + 1];
-        if (rightHeight >= leftHeight)
+        if (leftMaxHeight < rightMaxHeight)
         {
-            volumeOfWater += (rightIndex - leftIndex - 1) * std::min(leftHeight, rightHeight);
-            volumeOfWater -= currentVolumeOfStairs;
-            currentVolumeOfStairs = 0;
-            leftIndex = i;
-            leftHeight = stepsVector[i];
+            leftIndex += 1;
+            leftMaxHeight = std::max(leftMaxHeight, stepsVector[leftIndex]);
+            volumeOfWater += leftMaxHeight - stepsVector[leftIndex];
         }
         else
         {
-            currentVolumeOfStairs += stepsVector[i + 1];
+            {
+                rightIndex -= 1;
+                rightMaxHeight = std::max(rightMaxHeight, stepsVector[rightIndex]);
+                volumeOfWater += rightMaxHeight - stepsVector[rightIndex];
+            }
         }
     }
     return volumeOfWater;
+}
+
+int main()
+{
+    std::vector<int> stepsVector{0, 1, 1, 0, 3, 2, 1, 0, 2, 3};
+    int waterVolume = getWaterBetweenSteps(stepsVector);
+    std::cout << "" << std::endl;
+    std::cout << "water volume: " + waterVolume << std::endl;
+    return 0;
 }
